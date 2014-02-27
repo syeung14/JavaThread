@@ -13,6 +13,10 @@ public class TwoThread extends Thread {
 
 		for ( int i = 0; i < 10; i++ ) {
 			System.out.println("Main thread");
+			
+			System.out.println("Main thread");
+			System.out.println("Main thread");
+			
 		}
 	}
 }
